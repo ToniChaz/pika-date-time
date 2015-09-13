@@ -267,5 +267,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Custom ignore
-app/scripts/config.js
+css/pika-date-time.min.css
 
