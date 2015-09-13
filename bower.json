@@ -1,7 +1,7 @@
 {
   "name": "pika-date-time",
   "version": "0.1.0",
-  "description": "Angular directive date time picker, based in pikadate",
+  "description": "Date time picker, based in pikaday, compatible with angular",
   "main": ["lib/pika-date-time.js", "css/pika-date-time.css"],
   "keywords": [
     "date",
