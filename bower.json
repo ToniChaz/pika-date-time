@@ -1,0 +1,30 @@
+{
+  "name": "pika-date-time",
+  "version": "0.1.0",
+  "description": "Angular directive date time picker, based in pikadate",
+  "main": ["lib/pika-date-time.js", "css/pika-date-time.css"],
+  "keywords": [
+    "date",
+    "time",
+    "picker",
+    "date time picker",
+    "angular date time picker"
+  ],
+  "author": {
+    "name": "Toni Chaz",
+    "email": "toni.chaz@hotmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/tonichaz/pika-date-time.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

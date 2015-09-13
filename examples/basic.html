@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pik a date time basic example</title>
+
+    <link rel="stylesheet" href="/css/pika-date-time.css">
+    <script type="text/javascript" src="/lib/pika-date-time.js"></script>
+</head>
+<body>
+<div class="content" style="width:300px; margin: 150px auto;">
+    <h1>Date time picker</h1>
+    <p>Select a day and time</p>
+    <input type="text" id="datepicker" style="width:300px;">
+</div>
+<script>
+    var picker = new Pikaday({
+        field: document.getElementById('datepicker'),
+        showTime: true,
+        use24hour: false,
+        autoClose: false
+    });
+</script>
+</body>
+</html>

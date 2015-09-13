@@ -1,0 +1,13 @@
+default:
+  - run
+
+run:
+  - connect:server:keepalive
+
+build:
+  - clean
+  - jshint:lib
+  - umd
+  - concat
+  - uglify
+  - cssmin
