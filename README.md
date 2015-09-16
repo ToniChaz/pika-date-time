@@ -1,9 +1,9 @@
 # PikaDateTime
 
-Date and time picker based in [pikadate], for angular directive thanks to [jackrabbitsgroup]
+JavaScript date and time picker based in [pikadate], for angular directive thanks to [jackrabbitsgroup]
 
 ## Version
-0.1.0
+##### 0.1.0
 
 ## Installation
 
@@ -29,11 +29,14 @@ $ grunt run
 ```
 When server is running visit: [http://localhost:9090/examples]
 
-## Usage
-_Coming soon_
+## Documentation and usage
+You can look in [pikaday documentation]
 
-## Documentation
-_Coming soon_
+### For time picker usage:
+```
+showTime: true
+use24hour: false
+```
 
 ## License
 
@@ -41,4 +44,5 @@ MIT
 
 [http://localhost:9090/examples]: http://localhost:9090/examples
 [pikadate]: https://github.com/dbushell/Pikaday
+[pikaday documentation]: https://github.com/dbushell/Pikaday
 [jackrabbitsgroup]: https://github.com/jackrabbitsgroup/angular-datetimepicker
