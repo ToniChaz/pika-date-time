@@ -3,7 +3,7 @@
 JavaScript date and time picker based in [pikadate], for angular directive thanks to [jackrabbitsgroup]
 
 ## Version
-##### 0.1.0
+##### 0.1.1
 
 ## Installation
 
